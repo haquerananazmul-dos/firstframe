@@ -1,0 +1,9 @@
+/ (root)
+ ├─ index.html
+ ├─ script.js
+ ├─ style.css
+ ├─ netlify.toml
+ ├─ package.json
+ └─ netlify/
+     └─ functions/
+         └─ generate.js
