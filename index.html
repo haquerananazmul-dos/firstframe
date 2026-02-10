@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FirstFrame – AI Hook Generator</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hero">
+    <h1>FirstFrame</h1>
+    <p>Generate viral hooks for creators using AI ⚡</p>
+  </header>
+
+  <!-- MAIN APP -->
+  <main class="app">
+
+    <!-- INPUT -->
+    <label>What is your content about?</label>
+    <input 
+      type="text" 
+      id="topic" 
+      placeholder="Example: AI tools for small businesses" 
+    />
+
+    <!-- PLATFORM -->
+    <label>Choose platform</label>
+    <select id="platform">
+      <option value="YouTube">YouTube</option>
+      <option value="Instagram">Instagram</option>
+      <option value="TikTok">TikTok</option>
+      <option value="Twitter">Twitter (X)</option>
+    </select>
+
+    <!-- BUTTON -->
+    <button id="generateBtn">
+      Generate Hook 🚀
+    </button>
+
+    <!-- LOADING -->
+    <p id="loading" class="hidden">Generating magic… ✨</p>
+
+    <!-- RESULT -->
+    <div id="result"></div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Built with ❤️ using Gemini AI</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
